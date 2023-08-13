@@ -30,19 +30,19 @@ The data set contains the following diseases:
 
 ## Conclusions
 - The dataset is highly impalance with "seborrheic keratosis" having least number of samples i.e. 77  whereas "pigmented benign keratosis" with 462 and "melanoma" with 438 dominate the entire dataset
-- An augmentor to syntehetically increase the class count helps in building an efficient model.
+- An augmentor to synthetically increase the class count helps in building an efficient model.
+- A CNN model with appropriate filters, hidden layers and droptout helped overcome overfitting problem with this solution.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- TensorFlow - version 1.0
-- Keras - version 2.0
-- Seaborn - version 3.0
-- Augmentor - version 3.0
-- Matplotlib - version 3.0
-- Seaborn - version 3.0
-- PIL - version 3.0
+- TensorFlow - version 2.12.0
+- Keras - version 2.12.0
+- Augmentor - version 0.2.12
+- Matplotlib - version 3.7.1
+- Seaborn - version 0.12.2
+- PIL - version 3.7.1
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
